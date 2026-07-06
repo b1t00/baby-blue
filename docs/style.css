@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: "pixelschriftBabyBlue";
+    src: url("assets/pixel-font/pixel_sans_serif/Pixel Sans Serif.ttf");
+}
+
+
+@font-face {
+    font-family: "Press_Start_2P";
+    src: url('assets/pixel-font/Press_Start_2P/PressStart2P-Regular.ttf');
+}
+
+@font-face {
+    font-family: "chary";
+    src: url('assets/pixel-font/charybdis/chary___.ttf');
+}
+
+@font-face {
+    font-family: "kongtext";
+    src: url('assets/pixel-font/kongtext/kongtext.ttf');
+}
+
+body {
+    margin: 0;
+}
+ 
+canvas {
+     display: block;
+     margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.65,0.65);
+} 
+
+#storyBtn:hover{
+    opacity: 1;
+}
+* {
+    background-color: steelblue;    
+}
